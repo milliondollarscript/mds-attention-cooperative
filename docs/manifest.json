@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "package": "mds-attention-cooperative",
+  "type": "extension",
+  "version": "0.3.0",
+  "channel": "main",
+  "title": "Attention Cooperative",
+  "docs": [
+    {
+      "id": "usage",
+      "title": "Attention Cooperative",
+      "file": "USAGE.md",
+      "audience": ["admin", "support", "developer", "legal-review"],
+      "topics": ["extensions", "commerce", "privacy", "moderation", "rest-api", "security", "legal"]
+    }
+  ]
+}

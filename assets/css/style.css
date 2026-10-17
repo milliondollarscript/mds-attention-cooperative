@@ -1,0 +1,205 @@
+.mds-attention-cooperative {
+    --mds-ac-bg: #ffffff;
+    --mds-ac-panel: #f8fafc;
+    --mds-ac-border: #d7dde5;
+    --mds-ac-text: #111827;
+    --mds-ac-muted: #4b5563;
+    --mds-ac-accent: #2563eb;
+    box-sizing: border-box;
+    color: var(--mds-ac-text);
+    display: grid;
+    gap: 20px;
+    margin: 24px 0;
+}
+
+.mds-attention-cooperative *,
+.mds-attention-cooperative *::before,
+.mds-attention-cooperative *::after {
+    box-sizing: border-box;
+}
+
+.mds-attention-cooperative__header,
+.mds-attention-cooperative__apply,
+.mds-attention-cooperative__grid > section {
+    background: var(--mds-ac-bg);
+    border: 1px solid var(--mds-ac-border);
+    border-radius: 8px;
+    padding: clamp(18px, 4vw, 30px);
+}
+
+.mds-attention-cooperative__header > span,
+.mds-attention-cooperative__cards article > span {
+    color: var(--mds-ac-accent);
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.mds-attention-cooperative h2,
+.mds-attention-cooperative h3,
+.mds-attention-cooperative h4 {
+    color: var(--mds-ac-text);
+    margin: 0;
+}
+
+.mds-attention-cooperative h2 {
+    font-size: clamp(26px, 3vw, 38px);
+    line-height: 1.1;
+}
+
+.mds-attention-cooperative p,
+.mds-attention-cooperative small,
+.mds-attention-cooperative dd {
+    color: var(--mds-ac-muted);
+}
+
+.mds-attention-cooperative__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.mds-attention-cooperative a,
+.mds-attention-cooperative__apply button {
+    color: var(--mds-ac-accent);
+    font-weight: 700;
+}
+
+.mds-attention-cooperative__links a {
+    background: var(--mds-ac-panel);
+    border: 1px solid var(--mds-ac-border);
+    border-radius: 999px;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+.mds-attention-cooperative__grid {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.mds-attention-cooperative__cards {
+    display: grid;
+    gap: 12px;
+    margin-top: 14px;
+}
+
+.mds-attention-cooperative__cards article {
+    background: var(--mds-ac-panel);
+    border: 1px solid var(--mds-ac-border);
+    border-radius: 8px;
+    padding: 14px;
+}
+
+.mds-attention-cooperative__cards dl {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 12px 0;
+}
+
+.mds-attention-cooperative__cards dt {
+    color: var(--mds-ac-muted);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.mds-attention-cooperative__cards dd {
+    margin: 2px 0 0;
+}
+
+.mds-attention-cooperative__apply form {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 14px;
+}
+
+.mds-attention-cooperative__form-note {
+    color: var(--mds-ac-muted);
+    margin: 6px 0 0;
+}
+
+.mds-attention-cooperative__apply label {
+    display: grid;
+    gap: 5px;
+}
+
+.mds-attention-cooperative__apply label span {
+    color: var(--mds-ac-muted);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.mds-attention-cooperative__apply input,
+.mds-attention-cooperative__apply select,
+.mds-attention-cooperative__apply textarea {
+    background: var(--mds-ac-bg) !important;
+    border: 1px solid var(--mds-ac-border) !important;
+    border-radius: 6px;
+    color: var(--mds-ac-text) !important;
+    min-height: 44px;
+    padding: 9px 10px;
+    width: 100%;
+}
+
+.mds-attention-cooperative__apply button {
+    background: var(--mds-ac-accent);
+    border: 1px solid var(--mds-ac-accent);
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+    min-height: 44px;
+    padding: 11px 14px;
+}
+
+.mds-attention-cooperative__wide,
+.mds-attention-cooperative__check,
+.mds-attention-cooperative__apply button,
+.mds-attention-cooperative__notice {
+    grid-column: 1 / -1;
+}
+
+.mds-attention-cooperative__notice.is-success {
+    background: #f0fdf4;
+    border-color: #22c55e;
+    color: #14532d;
+}
+
+.mds-attention-cooperative__notice.is-error {
+    background: #fef2f2;
+    border-color: #ef4444;
+    color: #7f1d1d;
+}
+
+.mds-attention-cooperative__check {
+    align-items: flex-start;
+    display: flex !important;
+    gap: 8px;
+}
+
+.mds-attention-cooperative__notice {
+    background: var(--mds-ac-panel);
+    border: 1px solid var(--mds-ac-border);
+    border-radius: 8px;
+    color: var(--mds-ac-text);
+    margin: 0;
+    padding: 12px;
+}
+
+.mds-attention-cooperative__trap {
+    display: none !important;
+}
+
+@media (max-width: 720px) {
+    .mds-attention-cooperative__grid,
+    .mds-attention-cooperative__apply form,
+    .mds-attention-cooperative__cards dl {
+        grid-template-columns: 1fr;
+    }
+}
