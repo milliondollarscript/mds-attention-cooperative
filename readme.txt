@@ -2,7 +2,7 @@
 Contributors: milliondollarscript
 Tags: million dollar script, sponsors, inventory, partnerships, federation
 Requires at least: 6.0
-Tested up to: 7.1
+Tested up to: 7.1.3
 Requires PHP: 8.1
 Stable tag: 0.3.0
 License: GPLv3 or later
