@@ -36,7 +36,7 @@ if (!defined('ABSPATH')) {
 }
 
 if (!defined('MDS_ATTENTION_COOPERATIVE_VERSION')) {
-    define('MDS_ATTENTION_COOPERATIVE_VERSION', '0.3.0');
+    define('MDS_ATTENTION_COOPERATIVE_VERSION', '0.3.1');
 }
 
 if (!defined('MDS_ATTENTION_COOPERATIVE_DB_VERSION')) {
