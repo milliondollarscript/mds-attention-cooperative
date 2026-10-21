@@ -4,7 +4,7 @@ Tags: million dollar script, sponsors, inventory, partnerships, federation
 Requires at least: 6.0
 Tested up to: 7.1.3
 Requires PHP: 8.1
-Stable tag: 0.3.0
+Stable tag: 0.3.1
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -43,6 +43,9 @@ Use:
 * `POST /wp-json/million-dollar-script/v1/cooperative/placements/{id}/revoke`
 
 == Changelog ==
+
+= 0.3.1 =
+* Tested with WordPress 7.1.3 and WooCommerce 11.2.1, and the plugin states the exact versions it was tested with, so WordPress and WooCommerce no longer report it as untested on a current site.
 
 = 0.3.0 =
 * Implemented the v1 service-signature placement protocol with exact method, route, body, timestamp, nonce, scope, and credential checks.

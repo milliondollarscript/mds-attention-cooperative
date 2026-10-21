@@ -3,7 +3,7 @@
  * Plugin Name: Million Dollar Script - Attention Cooperative
  * Plugin URI: https://milliondollarscript.com/extensions/attention-cooperative
  * Description: Coordinate local sponsor-inventory partner pools with explicit approvals, scoped exposure, capacity tracking, audit logs, and revocation.
- * Version: 0.3.0
+ * Version: 0.3.1
  * Author: Million Dollar Script
  * Author URI: https://milliondollarscript.com
  * Text Domain: mds-attention-cooperative
