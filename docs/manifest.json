@@ -2,7 +2,7 @@
   "schema": 1,
   "package": "mds-attention-cooperative",
   "type": "extension",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "channel": "main",
   "title": "Attention Cooperative",
   "docs": [
